@@ -2,7 +2,7 @@
 
 The purpose of this small python script is to check if a website is down, this can be used with other python functions as long as you pass the url parameter.
 
-Library required is "requests" & "argparse"
+Library required is `"requests" & "argparse"`
 
 To run use the command: 
 
@@ -15,8 +15,9 @@ To run use the command:
 #example python3 check_systemarg.py google.com
 
 Expected output:
-https://google.com is up!
+
+`https://google.com is up!`
 
 or 
 
-https://google.com is down!
+`https://google.com is down!`
