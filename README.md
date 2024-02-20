@@ -11,6 +11,7 @@ To run use the command:
 #user is prompted to input a website url
 
 `python3 check_systemarg.py "website_url"`
+
 #example python3 check_systemarg.py google.com
 
 Expected output:
