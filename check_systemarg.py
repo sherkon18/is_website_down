@@ -21,9 +21,11 @@ def main():
     if not url.startswith("http"):
         url = "https://" + url
     if is_website_up(url):
-        print(f"{url} is up!")
+        #print(f"{url} is up!")
+        return True
     else:
-        print(f"{url} is down!")
+        #print(f"{url} is down!")
+        return False
 
 if __name__ == "__main__":
     main()
